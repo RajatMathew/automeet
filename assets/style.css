@@ -1,0 +1,133 @@
+html,
+body {
+  width: 320px; /* width of popup window */
+  height: 520px; /* height of popup window */
+  border-radius: 50px;
+  margin: 20px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.m0p0 {
+  margin: 0;
+  padding: 0;
+}
+
+.subject {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.logo {
+  color: rgb(0, 172, 120);
+}
+
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.my-0 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.upcoming {
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+  color: royalblue;
+}
+.container {
+  /* display: flex;
+  flex-direction: column;
+
+  align-items: center; */
+}
+/* 
+.button {
+  background-color: royalblue;
+  border-radius: 5px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  width: 280px;
+  margin-left: 10px;
+  padding: 10px 0px;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.button:hover {
+  background-color: green;
+  transform: translateY(-2px);
+  box-shadow: 8px 10px 50px 0px rgba(0, 224, 11, 0.19);
+
+  transition: 0.8s;
+}
+.button:hover::after {
+  transition: 0.5s;
+} */
+
+.mail {
+  display: flex;
+  /* margin-left: 5px; */
+  position: absolute;
+  bottom: 20px;
+}
+.input-mail {
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 15px;
+  margin-right: -6px;
+  max-width: 200%;
+  outline: 0;
+  color: #000000;
+  box-sizing: border-box;
+  border-radius: 5px 0 0 5px;
+  border: 2px solid #2e5eec;
+  width: 280px;
+}
+.btn-mail {
+  background-color: #2e5eec;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 0 5px 5px 0;
+  outline: 0;
+  border: 2px solid #2e5eec;
+}
+.btn-mail:hover {
+  background-color: #0202ec;
+  transition: 2s;
+}
+.tick {
+  max-width: 60%;
+  max-height: 60%;
+}
+.mail {
+  display: inline;
+}
+.cs-text {
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@keyframes loader {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loader {
+  animation: loader 1s infinite;
+}
