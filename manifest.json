@@ -6,7 +6,7 @@
   "author": "Your name",
 
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["background.js", "assets/input.js"],
     "persistent": false
   },
   "permissions": ["tabs", "history", "bookmarks"],
